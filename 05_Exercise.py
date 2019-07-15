@@ -1,9 +1,13 @@
+import datetime
+
 print('What is your name?')
 first_name = input()
 print('What is your last name?')
 last_name = input()
-print('What is you DOB (dd/mm/yyyy)?')
-dob = input()
+year = int(input('Enter the year you was born \n'))
+month = int(input('Enter a month you was born \n'))
+day = int(input('Enter a day you was born \n'))
+dob = datetime.date(year, month, day)
 print('Enter a funny fact about yourself..')
 fact = input()
 
