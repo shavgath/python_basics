@@ -14,7 +14,7 @@ my_variable = "I'm new content being re-assigned to my_variable"
 print(my_variable)
 
 
-#Where is the variable/box stored?
+# Where is the variable/box stored?
 correct_response = 'CPU Registers'
 print('the correct response was', correct_response)
 print('the correct response was' + ' ' + correct_response)
