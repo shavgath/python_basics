@@ -17,7 +17,7 @@
 while True:
     print('Welcome to the loop')
     word = input('Tell me a word \n')
-    # break # - 
+    # break # -
     if word == 'bananas':    # condition to go into the break key word
         print('you cracked the code')
         break    # Safe word to break the loop
