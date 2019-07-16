@@ -15,14 +15,17 @@ elif age >= 16:
 else:
     print('You are under age to vote')
 
-
 weather = input('What is the weather like? \n').lower().strip()
 if weather == 'rainy':
-    print('Booo its ' + weather)
     print('Go get an umbrella! ')
+elif weather == 'rainy and stormy':
+    print('Take a jacket and take an umbrella')
+elif weather == 'foggy':
+    print('Take an umbrella just in case')
 elif weather == 'sunny':
     print('Yaaay its ' + weather)
     print('You need some shades son!')
 else:
     print('Live your best life. ')
+
 
